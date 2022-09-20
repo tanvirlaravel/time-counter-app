@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time  Counter</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time Counter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="showTime">00:00:00</h1>
+      <button class="btn btn-primary" id="start-counter">Start</button>
+      <button class="btn btn-info" id="pause-counter">Pause</button>
+      <button class="btn btn-danger" id="stop-counter">Stop</button>
+      <button class="btn btn-danger" id="all-clear">All Clear</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
 </html>
